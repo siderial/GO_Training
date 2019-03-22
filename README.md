@@ -18,7 +18,7 @@ output
 GET	/bookings/	
 --------------------------------------------------------
 input 
-  - none -
+  none 
   
 output
 [{"id": 1, "name": "Weerasak Chongnguluam": "room": "ชมพนา", "start": "2019-03-22T07:00:00Z", "end": "2019-03-22T08:00:00Z"}]
@@ -27,7 +27,7 @@ output
 GET	/bookings/1	
 --------------------------------------------------------
 input 
-  - none - 
+  none 
   
 output
 {"id": 1, "name": "Weerasak Chongnguluam": "room": "ชมพนา", "start": "2019-03-22T07:00:00Z", "end": "2019-03-22T08:00:00Z"}
@@ -36,7 +36,7 @@ output
 DELETE	/bookings/1	
 --------------------------------------------------------
 input 
-  - none - 
+  none
   
 output
 ``
